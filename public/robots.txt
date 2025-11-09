@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://devsin8.vercel.app/sitemap.xml
+
