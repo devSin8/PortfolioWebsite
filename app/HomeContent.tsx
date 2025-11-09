@@ -15,9 +15,6 @@ export default function HomeContent() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.1, ease: 'easeOut' }}
       >
-        <h1 className="text-xl sm:text-2xl font-semibold mb-6 text-shadow">
-          ← take me home
-        </h1>
       </motion.div>
 
       <motion.div
