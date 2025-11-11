@@ -8,12 +8,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: '#0f0e0e',
-        text: '#e5dacb',
-        accent: '#88a995',
+        background: '#0A0A0A',
+        text: '#E5E5E5',
+        accent: '#6EE7B7',
       },
       fontFamily: {
-        mono: ['var(--font-mono)', 'monospace'],
+        mono: ['JetBrains Mono', 'Fira Code', 'Consolas', 'Monaco', 'monospace'],
       },
     },
   },
