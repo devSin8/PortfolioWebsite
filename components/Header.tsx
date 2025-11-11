@@ -33,6 +33,12 @@ export default function Header() {
           Contact
           <span className="absolute bottom-0 left-0 w-0 h-px bg-accent transition-all duration-200 group-hover:w-full"></span>
         </Link>
+    <header className="p-4 flex justify-between items-center text-sm">
+      <nav className="space-x-6">
+        <Link href="/">Home</Link>
+        <Link href="/education">Education</Link>
+        <Link href="/experience">Experience</Link>
+        <Link href="/contact">Contact</Link>
       </nav>
     </header>
   );

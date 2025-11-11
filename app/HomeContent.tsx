@@ -32,12 +32,16 @@ export default function HomeContent() {
       >
         <p className="text-base sm:text-lg">
           I'm <span className="text-accent">devSin8</span>, and among other things, I'm a developer.
+        <p className="text-base sm:text-lg text-shadow">
+          I'm <span className="text-accent font-medium">Aditya Pandey</span>, and among other things, I'm a developer.
         </p>
         <p className="text-base sm:text-lg">
           I enjoy making and developing websites and apps.
         </p>
         <p className="text-base sm:text-lg">
           I'm currently learning and developing in <span className="text-accent">Java</span>, <span className="text-accent">C++</span>, and <span className="text-accent">JavaScript</span>.
+        <p className="text-base sm:text-lg text-shadow">
+          I'm currently learning and developing in <span className="text-accent">Java</span>, <span className="text-accent">C++</span>, and <span className="text-accent">JavaScript</span>, <span className="text-accent">Next.js</span>, <span className="text-accent">TypeScript</span>.            
         </p>
       </motion.div>
     </motion.div>
