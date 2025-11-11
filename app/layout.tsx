@@ -2,7 +2,8 @@
 
 import React from "react";
 import "./globals.css";
-import Header from "../components/Header"; // adjust path if different
+import Header from "../components/Header"; // adjust path if needed
+import Footer from "../components/Footer";
 
 export default function RootLayout({
   children,
@@ -16,6 +17,7 @@ export default function RootLayout({
         <main className="flex-1 py-12 px-6 max-w-4xl mx-auto w-full">
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );
